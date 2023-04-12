@@ -113,3 +113,8 @@
 .ex-7-img:hover{
     filter: grayscale(2) saturate(4);
 }
+
+.ex-8-img:hover{
+    filter: grayscale(2) saturate(4);
+    border-radius: 50%;
+}
