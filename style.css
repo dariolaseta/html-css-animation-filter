@@ -109,3 +109,7 @@
 .ex-6-img:hover{
     filter: grayscale(2);
 }
+
+.ex-7-img:hover{
+    filter: grayscale(2) saturate(4);
+}
