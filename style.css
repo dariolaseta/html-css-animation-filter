@@ -52,8 +52,6 @@
 }
 .ex-11-icon {
     font-size: 60px;
-
-    animation: rotate-return 2s;
 }
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -134,4 +132,24 @@
     0%{
         transform: rotate(1turn);
     }
+}
+
+@keyframes rotate-return {
+    0% {
+        transform: rotate(0);
+    }
+    95% {
+        transform: rotate(300deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.ex-11-icon:hover {
+    animation: rotate-return 2s;
+}
+
+.ex-12-top-white:hover {
+    animation: white-move 2s;
 }
